@@ -1,0 +1,42 @@
+
+body {
+    background-color: lightblue;
+}
+
+#features{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.feature{
+    background-color: white;
+    border-color: wheat;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border-radius: 10px;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    transition: all .2s ease-in-out; 
+}
+
+.feature:hover{
+    transform: scale(1.05)
+}
+
+.img .txt{
+    text-align: center;
+    font-weight: bold;
+}
+
+.img .img{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
+
+
+
