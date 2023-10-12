@@ -58,6 +58,7 @@ makeFeature(
     "Blocks have custom blast resistance",
     `
     You can customize how resisant blocks are to explosions<br>
+    <br> 
     For example, you can makes blocks like dirt and sand more resistance to explosion, making it easier to clean up creeper explosions
     `
 )
@@ -68,6 +69,7 @@ makeFeature(
     "Blocks have custom hardness",
     `
     You can customize how easy or hard it is to break a specidifed block.<br>
+    <br> 
     For example, you can makes softer blocks like dirt harder to break, incentivizing using efficiency enchantments on them.
     `
 )
@@ -91,8 +93,9 @@ makeFeature(
     "",
     "Enchantments can be blacklisted",
     `
-    You can customize which enchantments will be prevented from appearing in enchanting tables or loots.
-    Useful for when you want to remove an OP enchantment that makes similar lesser enchantments less worth getting, like Protection.
+    You can customize which enchantments will be prevented from appearing in enchanting tables or loots.<br> 
+    <br> 
+    For example, you can blacklist the Protection enchantment to incentivize using the specialized protection enchantments, like Blast protection
     `
 )
 makeFeature(
@@ -162,7 +165,7 @@ makeFeature(
     "",
     "",
     "Horses need food to be tamed",
-    "Prevents you from taming any horse with zero effort"
+    "Prevents you from taming any horse without feeding them first"
 )
 makeFeature(
     "assets/pahafi_before.png",
@@ -211,7 +214,10 @@ makeFeature(
     "",
     "",
     "Villages have less fights",
-    "Non-zombies/non-pillagers and villager golems no longer fight each other. Mobs and player-made golems will still fight each other as normal."
+    `
+    Non-zombies/non-pillagers and villager golems no longer fight each other.<br>  
+    Mobs and player-made golems will still fight each other as normal.
+    `
 )
 
 
@@ -267,6 +273,11 @@ makeFeature(
     "",
     "",
     "Tools max durability decay",
-    "As an alternative to increasing repair costs, an item will instead lose maximum durability as you repair it. An item will also decay faster with more enchantments. For example, if this config value is set to 1000, an item with 0 enchantments will lose 0 max durability after 1000 durability has been repaired; an item with 1 full enchantment will lose 1 max durability after 1000 durability has been repaired; an item with two full enchantments will lose 2 max durability; etc."
+    `
+    As an alternative to increasing repair costs, an item will instead lose maximum durability as you repair it.<br> 
+    An item will also decay faster with more enchantments.<br>
+    <br> 
+    For example, if this config value is set to 1000, an item with 0 enchantments will lose 0 max durability after 1000 durability has been repaired; an item with 1 full enchantment will lose 1 max durability after 1000 durability has been repaired; an item with two full enchantments will lose 2 max durability; etc.
+    `
 )
 
