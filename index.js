@@ -57,9 +57,9 @@ makeFeature(
     "translate(-45%, -40%) scale(.22, .22)",
     "Blocks have custom blast resistance",
     `
-    You can customize how resisant blocks are to explosions<br>
+    You can customize how resistant blocks are to explosions<br>
     <br> 
-    For example, you can makes blocks like dirt and sand more resistance to explosion, making it easier to clean up creeper explosions
+    For example, you can make blocks like dirt and sand more resistant to explosion, making it easier to clean up creeper explosions
     `
 )
 makeFeature(
@@ -68,17 +68,17 @@ makeFeature(
     "",
     "Blocks have custom hardness",
     `
-    You can customize how easy or hard it is to break a specidifed block.<br>
+    You can customize how easy or hard it is to break a specified block.<br>
     <br> 
-    For example, you can makes softer blocks like dirt harder to break, incentivizing using efficiency enchantments on them.
+    For example, you can make softer blocks like dirt harder to break, incentivizing using efficiency enchantments on them.
     `
 )
 makeFeature(
     "assets/casasfg_before.png",
     "assets/casasfg_after.png",
     "translate(-50%, -40%) scale(.3, .3)",
-    "Cactus and sugarcane always spawn fully grown",
-    "Cactus and sugarcanes will now always generate fully grown and between 3-4 blocks tall, instead of only growing fully tall when you spent time in the chunk."
+    "Cactuses and sugarcanes always spawn fully grown",
+    "Cactuses and sugarcanes will now always generate fully grown and between 3-4 blocks tall, instead of only growing fully tall when you spend time in the chunk."
 )
 makeFeature(
     "",
@@ -105,21 +105,21 @@ makeFeature(
     "Enchantments can transfer to books",
     `
     You can now extract enchantments from items using a book.<br> 
-    Don't worry, you wont lose your items. <br> 
+    Don't worry, you won't lose your items. <br> 
     <br> 
     You can also set how much enchantments can transfer.<br>  
     Set this option to 100% if you want to incentivize enchanting early game tier tools.<br> 
-    Set this option to less than 100% if you want to prevent using this to cheat around repair cost by transfering enchantments to a fresh tool.
+    Set this option to less than 100% if you want to prevent using this to cheat around repair costs by transferring enchantments to a fresh tool.
     `
 )
 makeFeature(
     "",
     "",
     "",
-    "Enderman can teleport unreachable players",
+    "Endermen can teleport unreachable players",
     `
     Prevents you from escaping an enderman's wrath by using a two block ceiling.<br> 
-    Endermans can only teleport you within a few blocks away
+    Endermen can only teleport you within a few blocks away
     `
 )
 makeFeature(
@@ -129,7 +129,7 @@ makeFeature(
     "Fire protection offers lava immunity",
     `
     Makes fire protection more worth getting by offering temporary lava protection.<br> 
-    The config value represents the number of second of lava immunity offered per levels.
+    The config value represents the number of seconds of lava immunity offered per level.
     `
 )
 makeFeature(
@@ -150,7 +150,7 @@ makeFeature(
     "assets/gnlsiwf_before.png",
     "assets/gnlsiwf_after.png",
     "translate(-44%, -40%) scale(.2, .2)",
-    "Glow squids no longer spawns in waterfalls",
+    "Glow squids no longer spawn in waterfalls",
     "Prevents glow squids from spawning in 1x1 waterfalls just to later suffocate."
 )
 makeFeature(
@@ -226,13 +226,13 @@ makeFeature(
     "",
     "",
     "Bridging is disabled",
-    "Makes the game more challenging by preventing you from bridging across any large gap."
+    "Makes the game more challenging by preventing you from bridging any large gap."
 )
 makeFeature(
     "",
     "",
     "",
-    "Tools have limited enchantment capacitie",
+    "Tools have limited enchantment capacity",
     `
     There are limits to how many enchantments you can fit into an item.<br>
     This prevents you from aiming for OP tools and instead forces you to strategize on what to choose.<br>
@@ -243,9 +243,9 @@ makeFeature(
     <br>
     Example:<br>
     Iron Swords can hold up to a maximum of 2.5 enchantments.<br>
-    Fire aspect 1 one takes up 0.5 enchantments, as its half way from its maximum levels of two.<br>
+    Fire aspect 1 takes up 0.5 enchantments, as it's halfway from its maximum levels of two.<br>
     In addition, curse enchantments have negative weights, allowing you to effectively increase the capacity of an item.
-`
+    `
 )
 makeFeature(
     "",
@@ -265,7 +265,7 @@ makeFeature(
     "",
     "",
     "",
-    "Xp not needed for anvils",
+    "Xp is not needed for anvils",
     "Allows you to repair or enchant an item using an anvil without any xp requirements."
 )
 makeFeature(
