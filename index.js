@@ -34,6 +34,9 @@ makeFeature(
     "",
     "",
     "",
+    "assets/ahcf_before.png",
+    "assets/ahcf_after.png",
+    "translate(-45.5%, -40%) scale(.15, .15)",
     "Animals have custom feeding",
     "Makes animals like pigs more useful by having them eat more than just a few uncommon food items."
 )
