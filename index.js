@@ -235,6 +235,9 @@ makeFeature(
     "",
     "",
     "",
+    "assets/thlec_before.png",
+    "assets/thlec_after.png",
+    "translate(-45.5%, -47%) scale(.3, .3)",
     "Tools have limited enchantment capacity",
     `
     There are limits to how many enchantments you can fit into an item.<br>
