@@ -35,7 +35,13 @@ makeFeature(
     "assets/ahcf_after.png",
     "translate(-45.5%, -40%) scale(.15, .15)",
     "Animals have custom feeding",
-    "Makes animals like pigs more useful by having them eat more than just a few uncommon food items."
+    `
+    You can customize what food a mob can eat.<br>
+    <br>
+    For example, you can make pigs eat wheat, making them more worth getting.<br>
+    <br>
+    Does not effect all mobs, especially those with specialized feeding behavior or mobs from other mods.
+    `
 )
 makeFeature(
     "",
