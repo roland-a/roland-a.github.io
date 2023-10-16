@@ -265,7 +265,7 @@ makeFeature(
     "",
     "",
     "",
-    "Xp is not needed for anvils",
+    "Xp is no longer needed for anvils",
     "Allows you to repair or enchant an item using an anvil without any xp requirements."
 )
 makeFeature(
