@@ -262,9 +262,9 @@ makeFeature(
     "If you feel like xp is too grindy and you'd rather just disable it completely, now you can."
 )
 makeFeature(
-    "",
-    "",
-    "",
+    "assets/xnlnia_before.png",
+    "assets/xnlnia_after.png",
+    "translate(-45%, -40%) scale(.17, .17)",
     "Xp is no longer needed for anvils",
     "Allows you to repair or enchant an item using an anvil without any xp requirements."
 )
