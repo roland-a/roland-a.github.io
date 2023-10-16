@@ -229,9 +229,6 @@ makeFeature(
     "Makes the game more challenging by preventing you from bridging any large gap."
 )
 makeFeature(
-    "",
-    "",
-    "",
     "assets/thlec_before.png",
     "assets/thlec_after.png",
     "translate(-45.5%, -47%) scale(.3, .3)",
