@@ -48,7 +48,13 @@ makeFeature(
     "",
     "",
     "Animals heal when fed",
-    "Useful for parrots or saddled pigs whenever they get hurt."
+    `
+    You can customized which mobs heal when fed.<br>
+    <br>
+    This is useful for mobs like parrots or saddled pigs, who would otherwise need a splash healing potion.<br>
+    <br>
+    Does not effect all mobs, especially those with specialized feeding behavior or mobs from other mods.
+    `
 )
 makeFeature(
     "",
