@@ -31,9 +31,6 @@ makeFeature(
 )
 
 makeFeature(
-    "",
-    "",
-    "",
     "assets/ahcf_before.png",
     "assets/ahcf_after.png",
     "translate(-45.5%, -40%) scale(.15, .15)",
@@ -213,9 +210,9 @@ makeFeature(
     "Makes thorns more worth getting by canceling extra armor damage whenever thorns activate."
 )
 makeFeature(
-    "",
-    "",
-    "",
+    "assets/vhlf_before.png",
+    "assets/vhlf_after.png",
+    "translate(-44%, -40%) scale(.17, .17)",
     "Villages have less fights",
     `
     Non-zombies/non-pillagers and villager golems no longer fight each other.<br>  
