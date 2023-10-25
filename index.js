@@ -27,7 +27,7 @@ makeFeature(
     "assets/acps_after.png",
     "translate(-45%, -40%) scale(.3, .3)",
     "Allays Can Plant Seeds",
-    "Makes allays more worth getting by having them be useful for automated farms"
+    "Makes allays more worth getting by having them be useful for automated farms."
 )
 
 makeFeature(
@@ -40,7 +40,7 @@ makeFeature(
     <br>
     For example, you can make pigs eat wheat, making them more worth getting.<br>
     <br>
-    Does not effect all mobs, especially those with specialized feeding behavior or mobs from other mods.
+    Does not affect all mobs, especially those with specialized feeding behavior or from other mods.
     `
 )
 makeFeature(
@@ -49,11 +49,11 @@ makeFeature(
     "",
     "Animals heal when fed",
     `
-    You can customized which mobs heal when fed.<br>
+    You can customize which mobs heal when fed.<br>
     <br>
     This is useful for mobs like parrots or saddled pigs, who would otherwise need a splash healing potion.<br>
     <br>
-    Does not effect all mobs, especially those with specialized feeding behavior or mobs from other mods.
+    Does not affect all mobs, especially those with specialized feeding behavior or from other mods.
     `
 )
 makeFeature(
@@ -69,9 +69,9 @@ makeFeature(
     "translate(-45%, -40%) scale(.22, .22)",
     "Blocks have custom blast resistance",
     `
-    You can customize how resistant blocks are to explosions<br>
+    You can customize how resistant blocks are to explosions.<br>
     <br> 
-    For example, you can make blocks like dirt and sand more resistant to explosion, making it easier to clean up creeper explosions
+    For example, you can make blocks like dirt and sand more resistant to explosion, making it easier to clean up creeper explosions.
     `
 )
 makeFeature(
@@ -82,7 +82,7 @@ makeFeature(
     `
     You can customize how easy or hard it is to break a specified block.<br>
     <br> 
-    For example, you can make softer blocks like dirt harder to break, incentivizing using efficiency enchantments on them.
+    For example, you can make softer blocks like dirt and sand harder to break, incentivizing using efficiency enchantments on them.
     `
 )
 makeFeature(
@@ -105,9 +105,9 @@ makeFeature(
     "",
     "Enchantments can be blacklisted",
     `
-    You can customize which enchantments will be prevented from appearing in enchanting tables or loots.<br> 
+    You can customize which enchantments will be prevented from appearing in Survival.<br> 
     <br> 
-    For example, you can blacklist the Protection enchantment to incentivize using the specialized protection enchantments, like Blast protection
+    For example, you can blacklist the Protection enchantment to incentivize using the specialized protection enchantments, like Blast protection.
     `
 )
 makeFeature(
@@ -119,9 +119,12 @@ makeFeature(
     You can now extract enchantments from items using a book.<br> 
     Don't worry, you won't lose your items. <br> 
     <br> 
-    You can also set how much enchantments can transfer.<br>  
-    Set this option to 100% if you want to incentivize enchanting early game tier tools.<br> 
-    Set this option to less than 100% if you want to prevent using this to cheat around repair costs by transferring enchantments to a fresh tool.
+    You can also set what percentage of enchantments won't be lost in the process.<br>  
+    Set this option to 100% if you want to incentivize enchanting early-game tier tools.<br> 
+    Set this option to less than 100% if you want to prevent using this to cheat around repair costs.<br> 
+    <br> 
+    Note that in the config file, the transfer percentage's range is from 0.0 to 1.0, which means 0% and 100%, respectively.<br> 
+    This will be simplified in the future.
     `
 )
 makeFeature(
@@ -130,8 +133,8 @@ makeFeature(
     "",
     "Endermen can teleport unreachable players",
     `
-    Prevents you from escaping an enderman's wrath by using a two block ceiling.<br> 
-    Endermen can only teleport you within a few blocks away
+    Prevents you from escaping an enderman's wrath by using a two-block ceiling.<br> 
+    Endermen can only teleport you within a few blocks away.
     `
 )
 makeFeature(
@@ -177,7 +180,7 @@ makeFeature(
     "",
     "",
     "Horses need food to be tamed",
-    "Prevents you from taming any horse without feeding them first"
+    "Prevents you from taming any horse without feeding them first."
 )
 makeFeature(
     "assets/pahafi_before.png",
@@ -198,7 +201,7 @@ makeFeature(
     "",
     "",
     "Shields no longer prevent knockback",
-    "Shields are less overpowered by no longer canceling knockback from mob melee attacks."
+    "Shields are nerfed by no longer canceling knockback from mob melee attacks."
 )
 makeFeature(
     "assets/sngoi_before.png",
@@ -219,7 +222,7 @@ makeFeature(
     "",
     "",
     "Thorns no longer wear down armor",
-    "Makes thorns more worth getting by canceling extra armor damage whenever thorns activate."
+    "Makes Thorns more worth getting by no longer wearing down armor when it activates."
 )
 makeFeature(
     "assets/vhlf_before.png",
@@ -227,18 +230,19 @@ makeFeature(
     "translate(-44%, -40%) scale(.17, .17)",
     "Villages have less fights",
     `
-    Non-zombies/non-pillagers and villager golems no longer fight each other.<br>  
+    Mobs that aren't a threat to villagers will no longer fight with village golems.<br>  
     Mobs and player-made golems will still fight each other as normal.
     `
 )
 
-
+//More controversial changes
+//might be made in its own category
 makeFeature(
     "",
     "",
     "",
     "Bridging is disabled",
-    "Makes the game more challenging by preventing you from bridging any large gap."
+    "Makes the game more challenging by preventing you from bridging across large gaps."
 )
 makeFeature(
     "assets/thlec_before.png",
@@ -247,16 +251,16 @@ makeFeature(
     "Tools have limited enchantment capacity",
     `
     There are limits to how many enchantments you can fit into an item.<br>
-    This prevents you from aiming for OP tools and instead forces you to strategize on what to choose.<br>
+    Makes the game more challenging by preventing you from aiming for OP tools with all the enchantments.<br>
     <br>
-    How it works:<br>
     Each item has X maximum amount of enchantment weights it can hold.<br>
-    Each enchantment has a weight of Y depending on how close it is to its max level.<br>
+    For example, iron swords by default can hold up to a maximum of 3.0 enchantments.<br>
     <br>
-    Example:<br>
-    Iron Swords can hold up to a maximum of 2.5 enchantments.<br>
-    Fire aspect 1 takes up 0.5 enchantments, as it's halfway from its maximum levels of two.<br>
-    In addition, curse enchantments have negative weights, allowing you to effectively increase the capacity of an item.
+    Each level of enchantment weighs Y enchantments depending on how close it is to its maximum level.<br>
+    For example, fire aspect I weighs 0.5 enchantments, as it's halfway from its maximum level of two.<br>
+    <br>
+    In addition, cursed enchantments have negative weights.<br>
+    This allows you to effectively increase the capacity of an item, incentivizing the use of curse enchantments.
     `
 )
 makeFeature(
@@ -270,14 +274,14 @@ makeFeature(
     "assets/xid_before.png",
     "assets/xid_after.png",
     "translate(-45%, -40%) scale(.2, .2)",
-    "Xp is disabled",
+    "XP is disabled",
     "If you feel like xp is too grindy and you'd rather just disable it completely, now you can."
 )
 makeFeature(
     "assets/xnlnia_before.png",
     "assets/xnlnia_after.png",
     "translate(-45%, -40%) scale(.17, .17)",
-    "Xp is no longer needed for anvils",
+    "XP is no longer needed for anvils",
     "Allows you to repair or enchant an item using an anvil without any xp requirements."
 )
 makeFeature(
