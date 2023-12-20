@@ -8,7 +8,6 @@ body {
     flex-direction: column;
     gap: 20px;
 }
-
 .feature{
     background-color: white;
     border-color: wheat;
@@ -20,22 +19,15 @@ body {
     display: flex;
     flex-direction: row;
     gap: 10px;
-    transition: all .2s ease-in-out; 
+    transition: all .2s ease-in-out;
 }
-
 .feature:hover{
     transform: scale(1.05)
 }
 
-.img .txt{
-    text-align: center;
-    font-weight: bold;
-}
-
-.img .img{
-    width: 200px;
-    height: 200px;
-    overflow: hidden;
+#icons{
+    display: flex;
+    gap: 20px
 }
 
 
