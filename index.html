@@ -3,7 +3,6 @@
 <html>
     <head>
         <link rel="stylesheet" href="style.css">
-        <script type="text/javascript" src="index.js"></script>
     </head>
     <body>
         <h1>Rolando Arias</h1>
@@ -17,6 +16,21 @@
             I am quick to pick up on languages and frameworks and have experience with the following languages.
         </p>
         <div id="icons"><script type="text/javascript">
+            function makeIcon(image, name){
+                document.write(
+                    `
+                    <div class="icon">
+                        <div style="text-align: center">
+                            <img src=${image} alt="icon" height="50"/>
+                        </div>
+                        <div style="text-align: center">
+                            ${name}
+                        </div>
+                    </div>
+                    `
+                )
+            }
+            
             makeIcon("assets/languages/java.png", "Java")
             makeIcon("assets/languages/c++.png", "C++")
             makeIcon("assets/languages/javascript.png", "JavaScript")
