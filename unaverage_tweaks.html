@@ -43,7 +43,10 @@
                 "assets/unaverage_tweaks/acps_after.png",
                 "translate(-45%, -40%) scale(.3, .3)",
                 "Allays Can Plant Seeds",
-                "Makes allays more worth getting by having them be useful for automated farms."
+                `
+                Allays, when given seeds, will plant them on the nearest empty farmland.<br>
+                Incentivizes obtaining allays by having them be useful for automated farms.<br>
+                `
             )
             makeFeature(
                 "assets/unaverage_tweaks/ahcf_before.png",
@@ -52,10 +55,9 @@
                 "Animals have custom feeding",
                 `
                 You can customize what food a mob can eat.<br>
+                For example, you can make pigs eat wheat, incentivizing farming them.<br>
                 <br>
-                For example, you can make pigs eat wheat, making them more worth getting.<br>
-                <br>
-                Does not affect all mobs, especially those with specialized feeding behavior or from other mods.
+                Does not affect all mobs, especially those with specialized feeding behavior or from other mods.<br>
                 `
             )
             makeFeature(
@@ -65,10 +67,9 @@
                 "Animals heal when fed",
                 `
                 You can customize which mobs heal when fed.<br>
-                <br>
                 This is useful for mobs like parrots or saddled pigs, who would otherwise need a splash healing potion.<br>
                 <br>
-                Does not affect all mobs, especially those with specialized feeding behavior or from other mods.
+                Does not affect all mobs, especially those with specialized feeding behavior or from other mods.<br>
                 `
             )
             makeFeature(
@@ -76,7 +77,9 @@
                 "",
                 "",
                 "Bane of arthropods affects more mobs",
-                "Makes bane of arthropods more useful by making them affect more mobs, like guardians."
+                `
+                Incentivizes obtaining bane of arthropods by making them affect more mobs, like guardians.<br>
+                `
             )
             makeFeature(
                 "",
@@ -97,7 +100,10 @@
                 `
                 You can customize how resistant blocks are to explosions.<br>
                 <br>
-                For example, you can make blocks like dirt and sand more resistant to explosion, making it easier to clean up creeper explosions.
+                For example, you can make blocks like dirt and sand more resistant to explosion, making it easier to clean up creeper explosions.<br>
+                <br>
+                Does not affect all blocks, especially those with custom ticking behavior.<br>
+                `
             )
             makeFeature(
                 "",
@@ -119,7 +125,7 @@
                 `
                 You can customize how easy or hard it is to break a specified block.<br>
                 <br>
-                For example, you can make softer blocks like dirt and sand harder to break, incentivizing using efficiency enchantments on them.
+                For example, you can incentivize using efficiency enchantments on shovels by making blocks like dirt and sand harder to break.<br>
                 `
             )
             makeFeature(
@@ -127,14 +133,19 @@
                 "assets/unaverage_tweaks/casasfg_after.png",
                 "translate(-50%, -40%) scale(.3, .3)",
                 "Cactuses and sugarcanes always spawn fully grown",
-                "Cactuses and sugarcanes will now always generate fully grown and between 3-4 blocks tall, instead of only growing fully tall when you spend time in the chunk."
+                `
+                Cactuses and sugarcanes will now always generate fully grown and between 3-4 blocks tall.<br>
+                Creates more immersion by having unexplored chunks have fully grown plants just like an explored chunk.
+                `
             )
             makeFeature(
                 "",
                 "",
                 "",
                 "Cats repel creepers further away",
-                "Lets cats be a little more useful by repelling creepers at a much safer distance."
+                `
+                Lets cats be a little more useful by repelling creepers at a much safer distance.<br>
+                `
             )
             makeFeature(
                 "",
@@ -152,8 +163,7 @@
                 "Enchantments can be blacklisted",
                 `
                 You can customize which enchantments will be prevented from appearing in Survival.<br>
-                <br>
-                For example, you can blacklist the Protection enchantment to incentivize using the specialized protection enchantments, like Blast protection.
+                Can incentivize using specialized protection enchantments, like Blast protection, by blacklisting Protection.<br>
                 `
             )
             makeFeature(
@@ -170,7 +180,7 @@
                 Set this option to less than 100% if you want to prevent using this to cheat around repair costs.<br>
                 <br>
                 Note that in the config file, the transfer percentage's range is from 0.0 to 1.0, which means 0% and 100%, respectively.<br>
-                This will be simplified in the future.
+                This will be simplified in the future.<br>
                 `
             )
             makeFeature(
@@ -179,8 +189,8 @@
                 "",
                 "Endermen can teleport unreachable players",
                 `
-                Prevents you from escaping an enderman's wrath by using a two-block ceiling.<br>
-                Endermen can only teleport you within a few blocks away.
+                Endermen can teleport you closer if you are within a few blocks and are under a two-block shelter.<br>
+                Adds more challenges by preventing safe engagement with endermen.<br>
                 `
             )
             makeFeature(
@@ -189,8 +199,8 @@
                 "translate(-45%, -40%) scale(.16, .16)",
                 "Fire protection offers lava immunity",
                 `
-                Makes fire protection more worth getting by offering temporary lava protection.<br>
-                The config value represents the number of seconds of lava immunity offered per level.
+                Incentivizes using fire protection by offering temporary lava protection.<br>
+                The config value represents the number of seconds of lava immunity offered per level.<br>
                 `
             )
             makeFeature(
@@ -198,7 +208,9 @@
                 "",
                 "",
                 "Fire protection offers melee protection",
-                "Makes fire protection more worth getting by offering melee protections against fiery mobs like blazes."
+                `
+                Incentivizes using fire protection by offering melee protections against fiery mobs, like blazes and magma slimes.<br>
+                `
             )
             makeFeature(
                 "",
@@ -214,28 +226,38 @@
                 "assets/unaverage_tweaks/fman_after.png",
                 "translate(-45%, -40%) scale(.2, .2)",
                 "Frost walker melts at night",
-                "Prevents frosted ice from annoyingly not melting at night."
+                `
+                Prevents frosted ice from annoyingly not melting at night.<br>
+                `
             )
             makeFeature(
                 "assets/unaverage_tweaks/gnlsiwf_before.png",
                 "assets/unaverage_tweaks/gnlsiwf_after.png",
                 "translate(-44%, -40%) scale(.2, .2)",
                 "Glow squids no longer spawn in waterfalls",
-                "Prevents glow squids from spawning in 1x1 waterfalls just to later suffocate."
+                `
+                Prevents glow squids from spawning in 1x1 waterfalls.<br>
+                Creates more immersion by stopping glow-squids from spawning just to later suffocate.<br>
+                `
             )
             makeFeature(
                 "",
                 "",
                 "",
                 "Glowstone dust can glow up signs",
-                "Let you use glowstone dust to make sign text glow just like with glow ink sac."
+                `
+                Let you use glowstone dust to make sign text glow just like with glow ink sac.<br>
+                `
             )
             makeFeature(
                 "",
                 "",
                 "",
                 "Horses need food to be tamed",
-                "Prevents you from taming any horse without feeding them first."
+                `
+                Prevents you from taming any horse without feeding them first.<br>
+                Adds more challenges by forcing you to farm more food before finding horses<br>
+                `
             )
             makeFeature(
                 "",
@@ -272,21 +294,30 @@
                 "assets/unaverage_tweaks/pahafi_after.png",
                 "translate(-43%, -40%) scale(.3, .3)",
                 "Piglins and hoglins are fire immune",
-                "Makes piglins and hoglins immune to fire/lava like the rest of native nether mobs."
+                `
+                Piglins and hoglins are immune to fire/lava.<br>
+                Creates more immersion as it makes sense for a native nether mob to be fire-immune.<br>
+                `
             )
             makeFeature(
                 "",
                 "",
                 "",
                 "Pigs ridden are faster",
-                "Makes saddled pigs more worth getting over horses by boosting their ridden speed."
+                `
+                Pigs are now faster if led by a carrot and stick.<br>
+                Incentivizes using pigs as transportation over horses.<br>
+                `
             )
             makeFeature(
                 "",
                 "",
                 "",
                 "Shields no longer prevent knockback",
-                "Shields are nerfed by no longer canceling knockback from mob melee attacks."
+                `
+                Shields no longer cancel knock-back from mob melee attacks.<br>
+                Adds more challenges by keeping you on your toes if you're constantly pushed back by mobs.<br>
+                `
             )
             makeFeature(
                 "",
@@ -303,21 +334,30 @@
                 "assets/unaverage_tweaks/sngoi_after.png",
                 "translate(-42%, -40%) scale(.4, .4)",
                 "Sugarcane no longer generates on ice",
-                "Prevents sugarcane from spawning next to ice only to later break."
+                `
+                Prevents sugarcane from spawning next to ice only to later break.<br>
+                Creates more immersion by not having to see sugarcane break only after exploring a chunk.<br>
+                `
             )
             makeFeature(
                 "assets/unaverage_tweaks/thcrr_before.png",
                 "assets/unaverage_tweaks/thcrr_after.png",
                 "translate(-45%, -40%) scale(.2, .2)",
                 "Tools have custom repair rate",
-                "The amount of ingots needed to fully repair an item can be customized instead of it always being 4 ingots."
+                `
+                The amount of ingots needed to fully repair an item can be customized.<br>
+                Incentivizes repairing your tools instead of creating new ones.<br>
+                `
             )
             makeFeature(
                 "",
                 "",
                 "",
                 "Thorns no longer wear down armor",
-                "Makes Thorns more worth getting by no longer wearing down armor when it activates."
+                `
+                Thorns no longer wear down armor when it activates.
+                Incentivizes using Thorns on your armor.<br>
+                `
             )
             makeFeature(
                 "assets/unaverage_tweaks/vhlf_before.png",
@@ -325,8 +365,9 @@
                 "translate(-44%, -40%) scale(.17, .17)",
                 "Villages have less fights",
                 `
-                Mobs that aren't a threat to villagers will no longer fight with village golems.<br>
-                Mobs and player-made golems will still fight each other as normal.
+                Village golems will no longer fight with mobs that are not a threat to villagers.<br>
+                Creates more immersion as it makes no sense for village golems to get themselves hurt fighting these mobs.<br>
+                Player-made golems will still fight most hostile mobs as normal.<br>
                 `
             )
 
@@ -337,7 +378,9 @@
                 "",
                 "",
                 "Bridging is disabled",
-                "Makes the game more challenging by preventing you from bridging across large gaps."
+                `
+                Adds more challenges by preventing you from bridging across large gaps.<br>
+                `
             )
             makeFeature(
                 "assets/unaverage_tweaks/thlec_before.png",
@@ -345,8 +388,8 @@
                 "translate(-45.5%, -47%) scale(.3, .3)",
                 "Tools have limited enchantment capacity",
                 `
-                There are limits to how many enchantments you can fit into an item.<br>
-                Makes the game more challenging by preventing you from aiming for OP tools with all the enchantments.<br>
+                Limits how many enchantments can fit into an item.<br>
+                Adds more challenges by preventing you from aiming for OP tools with all the enchantments.<br>
                 <br>
                 Each item has X maximum amount of enchantment weights it can hold.<br>
                 For example, iron swords by default can hold up to a maximum of 3.0 enchantments.<br>
@@ -355,7 +398,7 @@
                 For example, fire aspect I weighs 0.5 enchantments, as it's halfway from its maximum level of two.<br>
                 <br>
                 In addition, cursed enchantments have negative weights.<br>
-                This allows you to effectively increase the capacity of an item, incentivizing the use of curse enchantments.
+                Incentivizes the use of curse enchantments as it effectively increases the enchantment capacity of an item.<br>
                 `
             )
             makeFeature(
@@ -363,21 +406,29 @@
                 "",
                 "",
                 "Pillaring is disabled",
-                "Makes the game more challenging by preventing you from pillaring or placing blocks below you in midair."
+                `
+                Prevents placing blocks below you in midair.<br>
+                Adds more challenges by preventing you from quickly escaping danger by pillaring up.<br>
+                Also incentivizes the use of feather falling by preventing you from placing a water bucket in midair to break your fall.<br>
+                `
             )
             makeFeature(
                 "assets/unaverage_tweaks/xid_before.png",
                 "assets/unaverage_tweaks/xid_after.png",
                 "translate(-45%, -40%) scale(.2, .2)",
                 "XP is disabled",
-                "If you feel like xp is too grindy and you'd rather just disable it completely, now you can."
+                `
+                If you feel like xp is too grindy and you'd rather just disable it completely, now you can.<br>
+                `
             )
             makeFeature(
                 "assets/unaverage_tweaks/xnlnia_before.png",
                 "assets/unaverage_tweaks/xnlnia_after.png",
                 "translate(-45%, -40%) scale(.17, .17)",
                 "XP is no longer needed for anvils",
-                "Allows you to repair or enchant an item using an anvil without any xp requirements."
+                `
+                Allows you to repair or enchant an item using an anvil without any xp requirements.<br>
+                `
             )
             makeFeature(
                 "",
@@ -385,11 +436,11 @@
                 "",
                 "Tools max durability decay",
                 `
-            As an alternative to increasing repair costs, an item will instead lose maximum durability as you repair it.<br>
-            An item will also decay faster with more enchantments.<br>
-            <br>
-            For example, if this config value is set to 1000, an item with 0 enchantments will lose 0 max durability after 1000 durability has been repaired; an item with 1 full enchantment will lose 1 max durability after 1000 durability has been repaired; an item with two full enchantments will lose 2 max durability; etc.
-            `
+                As an alternative to increasing repair costs, an item will instead lose maximum durability as you repair it.<br>
+                An item will also decay faster with more enchantments.<br>
+                <br>
+                For example, if this config value is set to 1000, an item with 0 enchantments will lose 0 max durability after 1000 durability has been repaired; an item with 1 full enchantment will lose 1 max durability after 1000 durability has been repaired; an item with two full enchantments will lose 2 max durability; etc.<br>
+                `
             )
         </script></div>
     </body>
