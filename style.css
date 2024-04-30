@@ -1,4 +1,3 @@
-
 body {
     background-color: lightblue;
     max-width: 800px;
@@ -7,32 +6,6 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
-#features{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-.feature{
-    background-color: white;
-    border-color: wheat;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    border-radius: 10px;
-    margin-left: 10%;
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    transition: all .2s ease-in-out;
-}
-.feature:hover{
-    transform: scale(1.05)
-}
-
-#icons{
-    display: flex;
-    gap: 20px
-}
 
 
 

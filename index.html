@@ -19,7 +19,7 @@
             function makeIcon(image, name){
                 document.write(
                     `
-                    <div class="icon">
+                    <div style="display: flex; gap: 20px">
                         <div style="text-align: center">
                             <img src=${image} alt="icon" height="50"/>
                         </div>
@@ -30,7 +30,7 @@
                     `
                 )
             }
-            
+
             makeIcon("assets/languages/java.png", "Java")
             makeIcon("assets/languages/c++.png", "C++")
             makeIcon("assets/languages/javascript.png", "JavaScript")
@@ -46,9 +46,11 @@
         <p><a href="https://www.curseforge.com/minecraft/mc-mods/infinibiome/">
             Page
         </a></p>
-        <img src="assets/infinibiome/image1.png" height=200>
-        <img src="assets/infinibiome/image2.png" height=200>\
-        <img src="assets/infinibiome/image3.png" height=200>
+        <div>
+            <img src="assets/infinibiome/image1.png" height=200>
+            <img src="assets/infinibiome/image2.png" height=200>
+            <img src="assets/infinibiome/image3.png" height=200>
+        </div>
         <p>
             This is the first large project I have created.
             It is a mod for the game Minecraft that adds infinitely varied landscapes.
