@@ -47,10 +47,20 @@
         <p><a href="https://www.curseforge.com/minecraft/mc-mods/infinibiome/">
             Page
         </a></p>
-        <div>
-            <img src="assets/infinibiome/image1.png" height=200>
-            <img src="assets/infinibiome/image2.png" height=200>
-            <img src="assets/infinibiome/image3.png" height=200>
+        <div style="display: flex">
+            <script>
+                makeImg = (img)=>document.write(
+                    `
+                    <div style="padding: 10px">
+                        <img src="${img}" height=150px>
+                    </div>
+                    `
+                )
+
+                makeImg("assets/infinibiome/image1.png")
+                makeImg("assets/infinibiome/image2.png")
+                makeImg("assets/infinibiome/image3.png")
+            </script>
         </div>
         <p>
             This is the first large project I have created.
