@@ -91,5 +91,53 @@
         <p>
             Here is the <a href="unaverage_tweaks.html">wiki</a> that demonstrates every new feature I added.
         </p>
+        <h3>
+            ML-Craft
+        </h3>
+        <p><a href="">
+            Page
+        </a></p>
+        <p>
+            This is another Minecraft mod that is in development.
+            After being frustrated with procedure terrain generation with Infinibiome, and after seeing the recent bloom of AI technology, I came up with a new idea.
+            What if I were to use generative AI to generate good-looking terrain?
+            I decided to have this idea be my senior design project, leading a team of two others.
+            After weeks of hard work, we came up with a working proof concept with these requirements:
+            <ul>
+                <li>The generated world size can be any arbitrary size</li>
+                <li>The model must generate elevation data that are very similar to the real-life elevation it's trained on</li>
+                <li>Multiple models can work seamlessly together to create multiple biomes within a generated world.</li>
+            </ul>
+        </p>
+        <p>
+            For our proof of concept, we decided to use two models: one based on a real mountain and another based on a real desert.
+            First, we have an arbitrary biome map.
+            Yellow represents deserts, and gray represents mountains:
+            <div>
+                <img src="assets/ml_craft/biomes.png">
+            </div>
+        </p>
+        <p>
+            Then we use our desert model to generate deserts where it's yellow on the map, and our mountain model to generate mountains where it's gray:
+            <div>
+                <img src="assets/ml_craft/results.png">
+            </div>
+        </p>
+        <p>
+            MLCraft is still in its infancy.
+            There are still a lot of new features that need to be added before it can be officially released.
+        </p>
+        <p>
+            Here is a roadmap of the features that will be added next:
+            <ul>
+                <li><s>Create a working proof of concept.</s></li>
+                <li><s>Have the generated elevation data be playable in Minecraft.</s></li>
+                <li>Add oceans and beaches to the biome-map generator.</li>
+                <li>Use better-trained models.</li>
+                <li>Add more models.</li>
+                <li>Move the models from Python to Java.</li>
+                <li>Have the elevation data be generated on the Create World screen.</li>
+            </ul>
+        </p>
     </body>
 </html>
