@@ -14,11 +14,11 @@
         <p>
             I am quick to pick up on languages and frameworks and have experience with the following languages.
         </p>
-        <div id="icons"><script type="text/javascript">
-            function makeIcon(image, name){
-                document.write(
+        <div style="display: flex;">
+            <script type="text/javascript">
+                makeImg = (image, name)=> document.write(
                     `
-                    <div style="display: flex; gap: 20px">
+                    <div style="padding: 10px">
                         <div style="text-align: center">
                             <img src=${image} alt="icon" height="50"/>
                         </div>
@@ -28,17 +28,17 @@
                     </div>
                     `
                 )
-            }
 
-            makeIcon("assets/languages/java.png", "Java")
-            makeIcon("assets/languages/c++.png", "C++")
-            makeIcon("assets/languages/javascript.png", "JavaScript")
-            makeIcon("assets/languages/html.png", "HTML")
-            makeIcon("assets/languages/css.png", "CSS")
-            makeIcon("assets/languages/sql.png", "SQL")
-            makeIcon("assets/languages/kotlin.png", "Kotlin")
-            makeIcon("assets/languages/typescript.png", "TypeScript")
-        </script></div>
+                makeImg("assets/languages/java.png", "Java")
+                makeImg("assets/languages/c++.png", "C++")
+                makeImg("assets/languages/javascript.png", "JavaScript")
+                makeImg("assets/languages/html.png", "HTML")
+                makeImg("assets/languages/css.png", "CSS")
+                makeImg("assets/languages/sql.png", "SQL")
+                makeImg("assets/languages/kotlin.png", "Kotlin")
+                makeImg("assets/languages/typescript.png", "TypeScript")
+            </script>
+        </div>
 
         <h2>Personal Projects</h2>
         <h3>Infinibiome</h3>
